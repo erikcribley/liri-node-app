@@ -84,7 +84,7 @@ var getMyBands = function(artist) {
                 )
             }
             console.log(logData.join("\n"))
-            console.log(writeToLog.join("\n"))
+            writeToLog(logData.join("\n"))
         }
     )
 }
@@ -154,4 +154,4 @@ var runThis = function(argOne, argTwo) {
 }
 
 //MAIN PROCESS
-runThis(proccess.argv[2], process.argv.slice(3).join(" "))
+runThis(process.argv[2], process.argv.slice(3).join(" "))
