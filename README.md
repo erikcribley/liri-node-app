@@ -36,11 +36,11 @@ because I took the keys from the solved example, but when I replaced them with m
 do-what-it-says takes info from the random.txt file. It functions but will not display the results because of my issue
 with Spotify
 
-![do-what-it-says-kinda] (/images/do-what-it-says.png)
+![do-what-it-says-kinda](/images/do-what-it-says.png)
 
 The app returns "LIRI doesn't do that" if you enter an invalid command
 
-![LIRI deosn't do that] (/images/liri-no.png)
+![LIRI deosn't do that](/images/liri-no.png)
 
 Data is also logged to log.txt.
 
